@@ -1,0 +1,8 @@
+.stack > * + * {
+  margin-top: var(--stack-space, 1em);
+}
+
+.profile {
+  font-size: var(--small-heading4);
+  text-align: justify;
+}

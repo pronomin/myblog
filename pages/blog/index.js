@@ -7,10 +7,10 @@ import {
   TwoColumnSidebar,
 } from "components/two-column.js";
 
-export default function Home() {
+export default function Blog() {
   return (
     <Container>
-      <Hero title="画像" subtitle="ドット" />
+      <Hero />
       <TwoColumn>
         <TwoColumnMain></TwoColumnMain>
         <TwoColumnSidebar>

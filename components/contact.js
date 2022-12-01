@@ -1,4 +1,5 @@
 import styles from "styles/contact.module.css";
+import Social from "components/social";
 
 export default function Contact() {
   return (
@@ -14,6 +15,7 @@ export default function Contact() {
         一級建築士の自作問題や、アイドル、プログラミング
         について書いていきます。よかったら見てやってください。
       </p>
+      <Social iconSize="30px" />
     </div>
   );
 }

@@ -6,10 +6,12 @@ import {
   TwoColumnMain,
   TwoColumnSidebar,
 } from "components/two-column.js";
+import Meta from "components/meta";
 
 export default function Home() {
   return (
     <Container>
+      <Meta pageTitle="農民の百姓日記" pageDesc />
       <Hero title="画像" subtitle="ドット" />
       <TwoColumn>
         <TwoColumnMain></TwoColumnMain>

@@ -7,11 +7,18 @@ import {
   TwoColumnSidebar,
 } from "components/two-column.js";
 import Meta from "components/meta";
+//汎用OGP画像
+import siteImg from "images/ogp.jpg";
 
 export default function Home() {
   return (
     <Container>
-      <Meta pageTitle="農民の百姓日記" pageDesc />
+      <Meta
+        pageTitle="農民の百姓日記"
+        pageImg={siteImg.src}
+        pageImgW={siteImg.width}
+        pageImgH={siteImg.height}
+      />
       <Hero title="画像" subtitle="ドット" />
       <TwoColumn>
         <TwoColumnMain></TwoColumnMain>

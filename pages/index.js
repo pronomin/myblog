@@ -24,7 +24,7 @@ export default function Home({ posts }) {
         pageImgW={siteImg.width}
         pageImgH={siteImg.height}
       />
-      <Hero title="画像" subtitle="ドット" />
+
       <TwoColumn>
         <TwoColumnMain>
           <Posts posts={posts} />

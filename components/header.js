@@ -5,7 +5,7 @@ import Nav from "components/nav";
 
 export default function Header() {
   return (
-    <header>
+    <header className={styles.wrapper}>
       <Container large>
         <div className={styles.flexContainer}>
           <div></div>
